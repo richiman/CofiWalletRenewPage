@@ -10,14 +10,13 @@
         </div>
         <form class="" action="index.html" method="post">
           <br>
-           <input type="text" class="form-control shadow text-center  bg-white rounded " id="idnombre" aria-describedby="nombre" placeholder="Nombre completo">
-           <br>
-            <input  type="text" class="form-control shadow text-center bg-white rounded " id="idFecha" aria-describedby="fecha" placeholder="Fecha de nacimiento">
-          <br>  <input type="text" class="form-control shadow text-center bg-white rounded " id="idFecha" aria-describedby="fecha" placeholder="Domicilio">
-          <br>  <input type="text" class="form-control shadow text-center bg-white rounded " id="idFecha" aria-describedby="fecha" placeholder="Telefono">
-          <br>  <input type="text" class="form-control shadow text-center bg-white rounded " id="idFecha" aria-describedby="fecha" placeholder="Correo">
-          <br>  <input type="text" class="form-control shadow text-center bg-white rounded " id="idFecha" aria-describedby="fecha" placeholder="RFC">
-          <br><button class="btn btn-info" type="button" name="button">Guardar</button>
+          <input type="text" class="form-control shadow text-center  bg-white rounded " id="idnombre" aria-describedby="nombre" placeholder="Nombre completo">
+          <br> <input  type="text" class="form-control shadow text-center bg-white rounded " id="idFecha" aria-describedby="fecha" placeholder="Fecha de nacimiento">
+          <br> <input type="text" class="form-control shadow text-center bg-white rounded " id="idFecha" aria-describedby="fecha" placeholder="Domicilio">
+          <br> <input type="text" class="form-control shadow text-center bg-white rounded " id="idFecha" aria-describedby="fecha" placeholder="Telefono">
+          <br> <input type="text" class="form-control shadow text-center bg-white rounded " id="idFecha" aria-describedby="fecha" placeholder="Correo">
+          <br> <input type="text" class="form-control shadow text-center bg-white rounded " id="idFecha" aria-describedby="fecha" placeholder="RFC">
+          <br> <button class="btn btn-info" type="button" name="button">Guardar</button>
         </form>
           <br>
       </div>
@@ -26,7 +25,7 @@
         <br>  <br>  <br>
         <h3 class="text-danger">Cuenta verificada o no X</h3>
         <br>
-        
+
         <div class="shadow  bg-white rounded">
           <br>
           <h4 class="text-info">Configuracion de contraseña</h4>

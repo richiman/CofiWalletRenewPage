@@ -110,7 +110,8 @@
     </tr>
 
   </tbody>
-</table>  </div>
+</table>
+</div>
   </div>
 
     <div class="col-sm-3 shadow  bg-white rounded">
