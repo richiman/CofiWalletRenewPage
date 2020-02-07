@@ -30,18 +30,18 @@ margin: 0px 0px 15px 10px;
           <div id="inner-circle">
            <span id="inside-content">
               <br>DATOS</span>
-     </div>
- </div>
-<br> <input type="text" class="form-control form-control-sm  shadow text-center bg-white rounded " id="idFecha" aria-describedby="fecha" placeholder="JUAN ANTONIO SANCHEZ PEÑA">
-<br> <input type="text" class="form-control form-control-sm shadow text-center bg-white rounded " id="idFecha" aria-describedby="fecha" placeholder="antonio1019@gmail.com">
-<br> <input type="text" class="form-control form-control-sm shadow text-center bg-white rounded " id="idFecha" aria-describedby="fecha" placeholder="Domicilio">
-<br> <select class="custom-select form-control-sm mr-sm-2 shadow text-center bg-white rounded" id="inlineFormCustomSelect">
+             </div>
+         </div><br>
+<input type="text" class="form-control form-control-sm  shadow text-center bg-white rounded " id="idFecha" aria-describedby="fecha" placeholder="JUAN ANTONIO SANCHEZ PEÑA">
+        <br> <input type="text" class="form-control form-control-sm shadow text-center bg-white rounded " id="idFecha" aria-describedby="fecha" placeholder="antonio1019@gmail.com">
+        <br> <input type="text" class="form-control form-control-sm shadow text-center bg-white rounded " id="idFecha" aria-describedby="fecha" placeholder="Domicilio">
+        <br> <select class="custom-select custom-select-sm mr-sm-2 shadow text-center bg-white rounded" id="inlineFormCustomSelect">
        <option selected>Selecciona banco...</option>
        <option value="1">One</option>
        <option value="2">Two</option>
        <option value="3">Three</option>
      </select>
-     <br><br> <select class="custom-select form-control-sm mr-sm-2 shadow text-center bg-white rounded" id="inlineFormCustomSelect">
+     <br><br> <select class="custom-select custom-select-sm mr-sm-2 shadow text-center bg-white rounded" id="inlineFormCustomSelect">
             <option selected>Clave ...</option>
             <option value="1">One</option>
             <option value="2">Two</option>
@@ -49,6 +49,8 @@ margin: 0px 0px 15px 10px;
           </select>
           <br><br><input type="text" class="form-control form-control-sm shadow text-center bg-white rounded " id="idFecha" aria-describedby="fecha" placeholder="$16,000.00 MXN">
           <br>
+          <button class="btn-sm btn-info"type="button" name="button">Retirar</button>
+<br><br>
       </div>
       <div class="col-sm-1  "><!-- IGNORE --></div>
       <div class="col-md-4 shadow  bg-white rounded ">
@@ -69,6 +71,7 @@ margin: 0px 0px 15px 10px;
         <h6>$16,000.00 MXN</h6>
         <p><small>Hora:</s onkeypress=""mall></p>
         <h6>12:00 am</h6>
+        <button class="btn-sm btn-info"type="button" name="button">Enviar</button>
       </div>
     </div>
   </div>

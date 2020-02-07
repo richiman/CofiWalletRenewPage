@@ -1,5 +1,27 @@
 
     <app-root>
+      <style media="screen">
+      #outer-circle {
+      background: #38B0D0;
+      border-radius: 50%;
+      height:180px;
+      width:180px;
+      }
+      #inner-circle {
+      position: relative;
+      background: #fff;
+      border-radius: 50%;
+      height:140px;
+      width:140px;
+      top:20px;
+      margin: 0px 0px 15px 20px;
+      }
+      .centereded{
+        margin: auto;
+        width: 50%;
+
+      }
+      </style>
 <style media="screen">
 .scrollable {
   height: 400px; /* or any value */
@@ -16,15 +38,32 @@
     <div class="container">
       <div class="row d-flex justify-content-center text-center">
         <div class="col-sm-3 shadow  bg-white rounded">
-          <h4 class="text-primary"><small>TOTAL INVERTIDO</small></h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <br>
+          <h4 class="text-black"><strong>TOTAL INVERTIDO</strong></h4>
+          <div class="centereded" id="outer-circle">
+            <div id="inner-circle">
+             <span id="inside-content">
+                <br><br>
+                  <strong>$150,000.00mxn</strong></span>
+               </div>
+           </div>
+           <br>
+           <div class="shadow bg-white rounded">
+             <br>
+               <span class="text-info"><strong>O Inversión: <small>150,000.00MXN</small> </strong></span><br>
+             <span><strong>O Disponible:  <small>20,000.00MXN</small></strong></span>
+             <br><br>
+           </div>
+           <br>
 
+           <button class="btn-sm btn-info  rounded" type="button" name="button">Retirar</button>
         </div>
-        <div class="col-md-6  ">
-  <div class="scrollable2">
-         <table class="table">
+
+        <div class="col-md-6 shadow bg-white rounded">
+  <div class="scrollable2 ">
+         <table class="table shadow  ">
   <thead >
-    <tr class=" shadow  bg-white rounded">
+    <tr class=" ">
       <th class="text-primary" scope="col">Contrato</th>
       <th scope="col">Inversion </th>
       <th scope="col">Interés</th>
@@ -34,42 +73,42 @@
   </thead>
   <tbody>
 
-    <tr class=" shadow  bg-white rounded">
+    <tr class="">
       <td>Mensual</td>
       <th scope="row">1</th>
       <td>Otto</td>
       <td>@mdo</td>
       <td>01/01/2020</td>
     </tr>
-    <tr class=" shadow  bg-white rounded">
+    <tr class=" ">
       <td>Mensual</td>
       <th scope="row">1</th>
       <td>Otto</td>
       <td>@mdo</td>
       <td>01/01/2020</td>
     </tr>
-    <tr class=" shadow  bg-white rounded">
+    <tr class="">
       <td>Mensual</td>
       <th scope="row">1</th>
       <td>Otto</td>
       <td>@mdo</td>
       <td>01/01/2020</td>
     </tr>
-    <tr class=" shadow  bg-white rounded">
+    <tr class=" ">
       <td class="text-info">Club</td>
       <th scope="row">3</th>
       <td>the Bird</td>
       <td>@twitter</td>
       <td>01/01/2020</td>
     </tr>
-    <tr class=" shadow  bg-white rounded">
+    <tr class=" ">
       <td>Mensual</td>
       <th scope="row">1</th>
       <td>Otto</td>
       <td>@mdo</td>
       <td>01/01/2020</td>
     </tr>
-    <tr class=" shadow  bg-white rounded">
+    <tr class=" ">
       <td>Trimestral</td>
       <th scope="row">2</th>
       <td>Thornton</td>
@@ -77,14 +116,14 @@
       <td>01/01/2020</td>
 
     </tr>
-    <tr class=" shadow  bg-white rounded">
+    <tr class=" ">
       <td class="text-info">Club</td>
       <th scope="row">3</th>
       <td>the Bird</td>
       <td>@twitter</td>
       <td>01/01/2020</td>
     </tr>
-    <tr class=" shadow  bg-white rounded">
+    <tr class=" ">
       <td>Trimestral</td>
       <th scope="row">2</th>
       <td>Thornton</td>
@@ -92,7 +131,7 @@
       <td>01/01/2020</td>
 
     </tr>
-    <tr class=" shadow  bg-white rounded">
+    <tr class=" ">
       <td>Trimestral</td>
       <th scope="row">2</th>
       <td>Thornton</td>
@@ -100,7 +139,7 @@
       <td>01/01/2020</td>
 
     </tr>
-    <tr class=" shadow  bg-white rounded">
+    <tr class=" ">
       <td>Trimestral</td>
       <th scope="row">2</th>
       <td>Thornton</td>

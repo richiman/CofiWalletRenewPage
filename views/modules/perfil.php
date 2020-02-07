@@ -2,20 +2,20 @@
   <div class="container">
     <div class="row d-flex justify-content-center text-center">
       <div class="col-sm-4 shadow  bg-white rounded">
-        <br>
-        <div class="shadow  bg-white rounded "  >
+        
+        <div class="  bg-white rounded "  >
           <br>
-          <img src="../img/camera.png" width="80" height="80"alt="" >
+          <img src="../img/camera.png" width="70" height="70"alt="" >
           <br> <br>
         </div>
         <form class="" action="index.html" method="post">
           <br>
-          <input type="text" class="form-control shadow text-center  bg-white rounded " id="idnombre" aria-describedby="nombre" placeholder="Nombre completo">
-          <br> <input  type="text" class="form-control shadow text-center bg-white rounded " id="idFecha" aria-describedby="fecha" placeholder="Fecha de nacimiento">
-          <br> <input type="text" class="form-control shadow text-center bg-white rounded " id="idFecha" aria-describedby="fecha" placeholder="Domicilio">
-          <br> <input type="text" class="form-control shadow text-center bg-white rounded " id="idFecha" aria-describedby="fecha" placeholder="Telefono">
-          <br> <input type="text" class="form-control shadow text-center bg-white rounded " id="idFecha" aria-describedby="fecha" placeholder="Correo">
-          <br> <input type="text" class="form-control shadow text-center bg-white rounded " id="idFecha" aria-describedby="fecha" placeholder="RFC">
+          <input type="text" class=" form-control-sm form-control shadow text-center  bg-white rounded " id="idnombre" aria-describedby="nombre" placeholder="Nombre completo">
+          <br> <input  type="text" class=" form-control-sm form-control shadow text-center bg-white rounded " id="idFecha" aria-describedby="fecha" placeholder="Fecha de nacimiento">
+          <br> <input type="text" class="form-control-sm form-control shadow text-center bg-white rounded " id="idFecha" aria-describedby="fecha" placeholder="Domicilio">
+          <br> <input type="text" class="form-control-sm form-control shadow text-center bg-white rounded " id="idFecha" aria-describedby="fecha" placeholder="Telefono">
+          <br> <input type="text" class="form-control-sm form-control shadow text-center bg-white rounded " id="idFecha" aria-describedby="fecha" placeholder="Correo">
+          <br> <input type="text" class="form-control-sm form-control shadow text-center bg-white rounded " id="idFecha" aria-describedby="fecha" placeholder="RFC">
           <br> <button class="btn btn-info" type="button" name="button">Guardar</button>
         </form>
           <br>
