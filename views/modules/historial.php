@@ -1,9 +1,22 @@
 <app-root>
+  <style media="screen">
+  .scrollable {
+    height: 400px; /* or any value */
+    overflow-y: auto;
 
-  <div class="container dflex">
+  }
+  .scrollable2 {
+    height: 485px; /* or any value */
+    overflow-y: auto;
+
+  }
+  </style>
+  <div class="container d-flex-center">
     <div class="row">
-      <div class="col-md-8">
-        <table class="table shadow  bg-white rounded">
+      <div class="col-md-7 shadow bg-white rounded">
+  <div class="scrollable2">
+        <table class="table   ">
+
  <thead >
    <tr class=" ">
      <th class="text-primary" scope="col">Banco</th>
@@ -14,9 +27,9 @@
      <th scope="col">Fecha</th>
    </tr>
  </thead>
- <tbody class="shadow  bg-white roundeds">
+ <tbody class="  ">
 
-   <tr class="shadow  bg-white rounded">
+   <tr class="  ">
      <td >Mensual</td>
      <th scope="row">1</th>
      <td>Otto</td>
@@ -24,7 +37,7 @@
     <td>@fat</td>
      <td>01/01/2020</td>
    </tr>
-   <tr class=" shadow  bg-white rounded">
+   <tr class="   ">
      <td>Mensual</td>
      <th scope="row">1</th>
      <td>Otto</td>
@@ -32,7 +45,7 @@
       <td>@fat</td>
      <td>01/01/2020</td>
    </tr>
-   <tr class=" shadow  bg-white rounded">
+   <tr class="   bg-white rounded">
      <td>Mensual</td>
      <th scope="row">1</th>
      <td>Otto</td>
@@ -40,7 +53,7 @@
       <td>@fat</td>
      <td>01/01/2020</td>
    </tr>
-   <tr class=" shadow  bg-white rounded">
+   <tr class="   bg-white rounded">
      <td class="text-info">Club</td>
      <th scope="row">3</th>
      <td>the Bird</td>
@@ -48,7 +61,7 @@
       <td>@fat</td>
      <td>01/01/2020</td>
    </tr>
-   <tr class=" shadow  bg-white rounded">
+   <tr class="   bg-white rounded">
      <td>Mensual</td>
      <th scope="row">1</th>
      <td>Otto</td>
@@ -56,7 +69,7 @@
       <td>@fat</td>
      <td>01/01/2020</td>
    </tr>
-   <tr class=" shadow  bg-white rounded">
+   <tr class="   bg-white rounded">
      <td>Trimestral</td>
      <th scope="row">2</th>
      <td>Thornton</td>
@@ -65,7 +78,7 @@
      <td>01/01/2020</td>
 
    </tr>
-   <tr class=" shadow  bg-white rounded">
+   <tr class="   bg-white rounded">
      <td class="text-info">Club</td>
      <th scope="row">3</th>
      <td>the Bird</td>
@@ -73,7 +86,7 @@
       <td>@fat</td>
      <td>01/01/2020</td>
    </tr>
-   <tr class=" shadow  bg-white rounded">
+   <tr class="   bg-white rounded">
      <td>Trimestral</td>
      <th scope="row">2</th>
      <td>Thornton</td>
@@ -82,49 +95,45 @@
      <td>01/01/2020</td>
 
    </tr>
-   <tr class=" shadow  bg-white rounded">
+   <tr class="   bg-white rounded">
      <td>Trimestral</td>
      <th scope="row">2</th>
      <td>Thornton</td>
      <td>@fat</td>
       <td>@fat</td>
      <td>01/01/2020</td>
-
    </tr>
-   <tr class=" shadow  bg-white rounded">
+   <tr class="   bg-white rounded">
      <td>Trimestral</td>
      <th scope="row">2</th>
      <td>Thornton</td>
      <td>@fat</td>
-      <td>@fat</td>
+     <td>@fat</td>
      <td>01/01/2020</td>
 
    </tr>
-
  </tbody>
 </table>
+</div>
       </div>
+  <div class="col-sm-1  "><!-- IGNORE --></div>
 
-      <div class="col-md-4 shadow bg-white rounded">
-       <h4 ></h4>
+      <div class="col-sm-3 shadow bg-white rounded">
+        <br>
        <div class="text-center text-primary shadow bg-info rounded h-auto">
         <a class="btn-lg  text-light"type="button" name="button"><br>Contratos<br><br></a>
        </div>
        <br>
-
        <div class="text-center text-primary shadow bg-info rounded">
         <a class="btn-lg  text-light"type="button" name="button"><br>Fondeos<br><br></a>
        </div>
-
        <br>
        <div class="text-center text-primary shadow bg-info rounded">
         <a class="btn-lg  text-light"type="button" name="button"><br>Retiros<br><br></a>
        </div>
        <br>
-
        <div class="text-center text-primary shadow bg-info rounded">
         <a class="btn-lg  text-light"type="button" name="button"><br>Contratos<br><br></a>
-
        </div>
       </div>
     </div>

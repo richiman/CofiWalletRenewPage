@@ -3,17 +3,17 @@
 #outer-circle {
 background: #38B0D0;
 border-radius: 50%;
-height:150px;
-width:150px;
+height:100px;
+width:100px;
 }
 #inner-circle {
 position: relative;
 background: #fff;
 border-radius: 50%;
-height:120px;
-width:120px;
-top:15px;
-margin: 0px 0px 30px 15px;
+height:80px;
+width:80px;
+top:10px;
+margin: 0px 0px 15px 10px;
 }
 .centereded{
   margin: auto;
@@ -21,37 +21,33 @@ margin: 0px 0px 30px 15px;
 
 }
 </style>
-
-
-
   <div class="container">
     <div class="row d-flex justify-content-center text-center">
       <div class="col-sm-4 shadow  bg-white rounded">
+        <br>
         <h4>Disponible</h4>
         <div class="centereded" id="outer-circle">
           <div id="inner-circle">
            <span id="inside-content">
-              <br><br>DATOS</span>
+              <br>DATOS</span>
      </div>
  </div>
-
-
-<br> <input type="text" class="form-control shadow text-center bg-white rounded " id="idFecha" aria-describedby="fecha" placeholder="JUAN ANTONIO SANCHEZ PEÑA">
-<br> <input type="text" class="form-control shadow text-center bg-white rounded " id="idFecha" aria-describedby="fecha" placeholder="antonio1019@gmail.com">
-<br> <input type="text" class="form-control shadow text-center bg-white rounded " id="idFecha" aria-describedby="fecha" placeholder="Domicilio">
-<br> <select class="custom-select mr-sm-2 shadow text-center bg-white rounded" id="inlineFormCustomSelect">
+<br> <input type="text" class="form-control form-control-sm  shadow text-center bg-white rounded " id="idFecha" aria-describedby="fecha" placeholder="JUAN ANTONIO SANCHEZ PEÑA">
+<br> <input type="text" class="form-control form-control-sm shadow text-center bg-white rounded " id="idFecha" aria-describedby="fecha" placeholder="antonio1019@gmail.com">
+<br> <input type="text" class="form-control form-control-sm shadow text-center bg-white rounded " id="idFecha" aria-describedby="fecha" placeholder="Domicilio">
+<br> <select class="custom-select form-control-sm mr-sm-2 shadow text-center bg-white rounded" id="inlineFormCustomSelect">
        <option selected>Selecciona banco...</option>
        <option value="1">One</option>
        <option value="2">Two</option>
        <option value="3">Three</option>
      </select>
-     <br><br> <select class="custom-select mr-sm-2 shadow text-center bg-white rounded" id="inlineFormCustomSelect">
+     <br><br> <select class="custom-select form-control-sm mr-sm-2 shadow text-center bg-white rounded" id="inlineFormCustomSelect">
             <option selected>Clave ...</option>
             <option value="1">One</option>
             <option value="2">Two</option>
             <option value="3">Three</option>
           </select>
-          <br><br><input type="text" class="form-control shadow text-center bg-white rounded " id="idFecha" aria-describedby="fecha" placeholder="$16,000.00 MXN">
+          <br><br><input type="text" class="form-control form-control-sm shadow text-center bg-white rounded " id="idFecha" aria-describedby="fecha" placeholder="$16,000.00 MXN">
           <br>
       </div>
       <div class="col-sm-1  "><!-- IGNORE --></div>
@@ -61,7 +57,6 @@ margin: 0px 0px 30px 15px;
         <br>
         <br>
         <h4>Ticket</h4>
-
         <p><small>Beneficiario:</small></p>
         <h6>JUAN ANTONIO SANCHEZ PEÑA </h6
         <p><small>Correo electronico:</small></p>
