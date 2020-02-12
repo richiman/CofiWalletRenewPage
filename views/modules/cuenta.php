@@ -33,6 +33,10 @@
   overflow-y: auto;
 
 }
+div{
+margin-left:10px;
+
+}
 </style>
 
     <div class="container">
@@ -59,94 +63,91 @@
            <button class="btn-sm btn-info  rounded" type="button" name="button">Retirar</button>
         </div>
 
-        <div class="col-md-6 shadow bg-white rounded">
+        <div class="col-md-5 shadow bg-white rounded">
   <div class="scrollable2 ">
          <table class="table shadow  ">
   <thead >
     <tr class=" ">
-      <th class="text-primary" scope="col">Contrato</th>
-      <th scope="col">Inversion </th>
-      <th scope="col">Interés</th>
-      <th scope="col">Pagos</th>
-      <th scope="col">Fecha</th>
+      <th class="text-primary" scope="col"><small>Contrato</small></th>
+      <th scope="col"><small>Inversion</small> </th>
+      <th scope="col"><small>Interés</small></th>
+      <th scope="col"><small>Pagos</small></th>
+      <th scope="col"><small>Fecha</small></th>
     </tr>
   </thead>
   <tbody>
 
     <tr class="">
-      <td>Mensual</td>
-      <th scope="row">1</th>
-      <td>Otto</td>
-      <td>@mdo</td>
-      <td>01/01/2020</td>
-    </tr>
-    <tr class=" ">
-      <td>Mensual</td>
-      <th scope="row">1</th>
-      <td>Otto</td>
-      <td>@mdo</td>
-      <td>01/01/2020</td>
+      <td><small>Mensual</small></td>
+      <th scope="row"><small>1</small></th>
+      <td><small>Otto</small></td>
+      <td><small>@mdo</small></td>
+      <td><small>01/01/2020</small></td>
     </tr>
     <tr class="">
-      <td>Mensual</td>
-      <th scope="row">1</th>
-      <td>Otto</td>
-      <td>@mdo</td>
-      <td>01/01/2020</td>
+      <td><small>Mensual</small></td>
+      <th scope="row"><small>1</small></th>
+      <td><small>Otto</small></td>
+      <td><small>@mdo</small></td>
+      <td><small>01/01/2020</small></td>
     </tr>
-    <tr class=" ">
-      <td class="text-info">Club</td>
-      <th scope="row">3</th>
-      <td>the Bird</td>
-      <td>@twitter</td>
-      <td>01/01/2020</td>
+    <tr class="">
+      <td><small>Mensual</small></td>
+      <th scope="row"><small>1</small></th>
+      <td><small>Otto</small></td>
+      <td><small>@mdo</small></td>
+      <td><small>01/01/2020</small></td>
     </tr>
-    <tr class=" ">
-      <td>Mensual</td>
-      <th scope="row">1</th>
-      <td>Otto</td>
-      <td>@mdo</td>
-      <td>01/01/2020</td>
+    <tr class="">
+      <td><small>Mensual</small></td>
+      <th scope="row"><small>1</small></th>
+      <td><small>Otto</small></td>
+      <td><small>@mdo</small></td>
+      <td><small>01/01/2020</small></td>
     </tr>
-    <tr class=" ">
-      <td>Trimestral</td>
-      <th scope="row">2</th>
-      <td>Thornton</td>
-      <td>@fat</td>
-      <td>01/01/2020</td>
+    <tr class="">
+      <td><small>Mensual</small></td>
+      <th scope="row"><small>1</small></th>
+      <td><small>Otto</small></td>
+      <td><small>@mdo</small></td>
+      <td><small>01/01/2020</small></td>
+    </tr>
+    <tr class="">
+      <td><small>Mensual</small></td>
+      <th scope="row"><small>1</small></th>
+      <td><small>Otto</small></td>
+      <td><small>@mdo</small></td>
+      <td><small>01/01/2020</small></td>
+    </tr>
+    <tr class="">
+      <td><small>Mensual</small></td>
+      <th scope="row"><small>1</small></th>
+      <td><small>Otto</small></td>
+      <td><small>@mdo</small></td>
+      <td><small>01/01/2020</small></td>
+    </tr>
+    <tr class="">
+      <td><small>Mensual</small></td>
+      <th scope="row"><small>1</small></th>
+      <td><small>Otto</small></td>
+      <td><small>@mdo</small></td>
+      <td><small>01/01/2020</small></td>
+    </tr>
+    <tr class="">
+      <td><small>Mensual</small></td>
+      <th scope="row"><small>1</small></th>
+      <td><small>Otto</small></td>
+      <td><small>@mdo</small></td>
+      <td><small>01/01/2020</small></td>
+    </tr>
+    <tr class="">
+      <td><small>Mensual</small></td>
+      <th scope="row"><small>1</small></th>
+      <td><small>Otto</small></td>
+      <td><small>@mdo</small></td>
+      <td><small>01/01/2020</small></td>
+    </tr>
 
-    </tr>
-    <tr class=" ">
-      <td class="text-info">Club</td>
-      <th scope="row">3</th>
-      <td>the Bird</td>
-      <td>@twitter</td>
-      <td>01/01/2020</td>
-    </tr>
-    <tr class=" ">
-      <td>Trimestral</td>
-      <th scope="row">2</th>
-      <td>Thornton</td>
-      <td>@fat</td>
-      <td>01/01/2020</td>
-
-    </tr>
-    <tr class=" ">
-      <td>Trimestral</td>
-      <th scope="row">2</th>
-      <td>Thornton</td>
-      <td>@fat</td>
-      <td>01/01/2020</td>
-
-    </tr>
-    <tr class=" ">
-      <td>Trimestral</td>
-      <th scope="row">2</th>
-      <td>Thornton</td>
-      <td>@fat</td>
-      <td>01/01/2020</td>
-
-    </tr>
 
   </tbody>
 </table>

@@ -6,7 +6,7 @@
 
   }
   .scrollable2 {
-    height: 485px; /* or any value */
+    height: 495px; /* or any value */
     overflow-y: auto;
 
   }
@@ -96,13 +96,6 @@
      <td>@twitter</td>
       <td>@fat</td>
      <td> <button class="btn-sm btn-info" >Pendiente</button></td>
-   </tr><tr class="   bg-white rounded">
-     <td class="text-info">Club</td>
-     <th scope="row">3</th>
-     <td>the Bird</td>
-     <td>@twitter</td>
-      <td>@fat</td>
-     <td> <button class="btn-sm btn-info" >Pendiente</button></td>
    </tr>
  </tbody>
 </table>
@@ -110,23 +103,40 @@
       </div>
   <div class="col-sm-1  "><!-- IGNORE --></div>
 
-      <div class="col-sm-3 shadow bg-white rounded">
-        <div class="container">
-    <div class="row">
-      <div class="col-sm">
+      <div class="col-3 shadow bg-white rounded">
+        <h4 class="text-center text-info">Contratos</h4>
+        <div class="scrollable2">
+        <br>
+        <table>
+          <tr>
+            <td><button class="btn-lg btn-info" type="button" name="button">Contrato <br>1</button></td>
+            <td><button  class="btn-lg btn-info" type="button" name="button">Contrato<br>  2</button></td>
+          </tr>
+          <tr>
+            <td><button class="btn-lg btn-info" type="button" name="button">Contrato <br>3</button></td>
+            <td><button  class="btn-lg btn-info" type="button" name="button">Contrato<br> 4</button></td>
+          </tr>
+          <tr>
+            <td><button class="btn-lg btn-info" type="button" name="button">Contrato <br>5</button></td>
+            <td><button  class="btn-lg btn-info" type="button" name="button">Contrato<br> 6 </button></td>
+          </tr>
+          <tr>
+            <td><button class="btn-lg btn-info" type="button" name="button">Contrato <br>7</button></td>
+            <td><button  class="btn-lg btn-info" type="button" name="button">Contrato<br> 8 </button></td>
+          </tr>
+          <tr>
+            <td><button class="btn-lg btn-info" type="button" name="button">Contrato <br>9</button></td>
+            <td><button  class="btn-lg btn-info" type="button" name="button">Contrato<br> 10</button></td>
+          </tr>
+          <tr>
+            <td><button class="btn-lg btn-info" type="button" name="button">Contrato <br>11</button></td>
+            <td><button  class="btn-lg btn-info" type="button" name="button">Contrato<br> 12</button></td>
+          </tr>
+        </table>
 
       </div>
-      <div class="col-sm">
-        <div class="card border-primary mb-3" style="max-width: 18rem;">
 
-      <div class="card-body text-primary">
-        <h3 class="text-center">1</h3>
-        <p class="text-center">Contrato <br><small>Mensual</small> </p>
-      </div>
-</div>
-      </div>
-    </div>
-  </div>
+
       </div>
     </div>
   </div>
