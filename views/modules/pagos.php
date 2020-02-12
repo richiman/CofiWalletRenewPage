@@ -103,33 +103,39 @@
       </div>
   <div class="col-sm-1  "><!-- IGNORE --></div>
 
-      <div class="col-3 shadow bg-white rounded">
+      <div class="col-sm-3 shadow bg-white rounded">
         <h4 class="text-center text-info">Contratos</h4>
         <div class="scrollable2">
         <br>
         <table>
           <tr>
             <td><button class="btn-lg btn-info" type="button" name="button">Contrato <br>1</button></td>
+            <td>  </td><td></td> <td></td> <td></td> <td></td> <td></td>
             <td><button  class="btn-lg btn-info" type="button" name="button">Contrato<br>  2</button></td>
           </tr>
           <tr>
             <td><button class="btn-lg btn-info" type="button" name="button">Contrato <br>3</button></td>
-            <td><button  class="btn-lg btn-info" type="button" name="button">Contrato<br> 4</button></td>
+            <td>  </td><td></td> <td></td> <td></td> <td></td> <td></td>
+            <td><button  class="btn-lg btn-info" type="button" name="button">Contrato<br>4</button></td>
           </tr>
           <tr>
             <td><button class="btn-lg btn-info" type="button" name="button">Contrato <br>5</button></td>
-            <td><button  class="btn-lg btn-info" type="button" name="button">Contrato<br> 6 </button></td>
+            <td>  </td><td></td> <td></td> <td></td> <td></td> <td></td>
+            <td><button  class="btn-lg btn-info" type="button" name="button">Contrato<br>6</button></td>
           </tr>
           <tr>
             <td><button class="btn-lg btn-info" type="button" name="button">Contrato <br>7</button></td>
-            <td><button  class="btn-lg btn-info" type="button" name="button">Contrato<br> 8 </button></td>
+            <td>  </td><td></td> <td></td> <td></td> <td></td> <td></td>
+            <td><button  class="btn-lg btn-info" type="button" name="button">Contrato<br>8</button></td>
           </tr>
           <tr>
             <td><button class="btn-lg btn-info" type="button" name="button">Contrato <br>9</button></td>
-            <td><button  class="btn-lg btn-info" type="button" name="button">Contrato<br> 10</button></td>
+            <td>  </td><td></td> <td></td> <td></td> <td></td> <td></td>
+            <td><button  class="btn-lg btn-info" type="button" name="button">Contrato<br>10</button></td>
           </tr>
           <tr>
             <td><button class="btn-lg btn-info" type="button" name="button">Contrato <br>11</button></td>
+            <td>  </td><td></td> <td></td> <td></td> <td></td> <td></td>
             <td><button  class="btn-lg btn-info" type="button" name="button">Contrato<br> 12</button></td>
           </tr>
         </table>
